@@ -1,0 +1,31 @@
+# WordPress core files
+/wp-admin/
+/wp-includes/
+/wp-content/plugins/
+!/wp-content/plugins/your-plugin-directory/
+
+# WordPress uploads
+/wp-content/uploads/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# IDE and editor files
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Logs
+*.log
+
+# Node modules (if using Node.js for build scripts)
+node_modules/
+
+# Composer dependencies (if using Composer)
+vendor/
+
+# Build artifacts
+/dist/
+/build/
